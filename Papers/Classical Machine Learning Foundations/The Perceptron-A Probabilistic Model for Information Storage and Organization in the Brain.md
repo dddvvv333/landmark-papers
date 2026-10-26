@@ -1,6 +1,6 @@
 # Metadata
 * Title: The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain.
-* Author: Roseblatt, F.
+* Author: Rosenblatt, F.
 * Published: 1958.
 * Psichological Review, 65(6), 386-408.
 # Content
