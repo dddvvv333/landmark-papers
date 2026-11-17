@@ -56,3 +56,56 @@
 * Unlike cross-validation though, where bias is present but its extent is unnknown, the out-of-bag estimates are unbiaserd.
 * Strength and correlation can also be estimated using out-of-bag methods.
 * This gives internal estimates that are helpul in understanding classification accuracy and how to improve it.
+# Random forests using random input selection
+* Formed by selecting at random, at each node, a small group of input variables to split on.
+* Grow the tree using CART to maximumum size and do not prune.
+* Denote this procedure Forest-RI.
+* The size F of the group is fixed.
+* Random input selection can be much faster than either Adaboost or Bagging.
+# Random forests using linear combinations of inputs
+* If there are few inputs, this may lead an increase in strength but higher correlation.
+* We can define more features by taking random linear combinations of a number of the input variables.
+* At a given node, $N$ variables are randomly selected and added together.
+* Linear combinations are generated, and then a search is made over these for the best split.
+* The above procedure is called Forest-RC.
+## Categorical variables
+* Some input variables may be categoricals, so its necessary an special treatment to those, to actaully combine them with numerical variables.
+* Coding is used.
+* When many variables are categorical, using a low value of F results in low correlation, but also low strength.
+# Empirical results on strength and correlation
+* Correlation and strength showed a small but steady increase in the experiments done.
+* The error rate show a slight decrease.
+* The results indicate that better (lower generalization error) random forest have lower correlation between classifiers and higher strength.
+* Randomness used in tree construction has to aim for low correlation, while maintaining reasonable strength.
+# Conjecture: Adaboost is a random forest
+* Originally, Adaboost is a deterministic algorithm that selects the weights on the training set for input to the next classifier based on the missclassifications in the previous classifiers.
+* In the experiments, the results of both algorithms are really close (also the errors).
+# The effects of output noise
+* When a fraction of the output labels in the training set are randomly altered, the accuracy of Adaboost degenerates, while bagging and random split selection are more inmune to the noise.
+* Some noise in the outputs is often present, robustness with respect to noise is a desirable property.
+* The Adaboost algorithm iteratively increases the wirghts on the instances most recently missclassified.
+* Then those instances having incorrect class labels will persist in being misclassified.
+* Adaboost will concentrate increasing weight in the noisy instances and become warped.
+* Random forest will not concentrate weight on any subset of the instances and the noise effect is smaller.
+# Random forests for regression
+* Random forests for regression are formed by growing trees depending on a random vector such that the tree predictor takes on numerical values as opposed to class labels.
+* The outputs values are numerical and we assume that the training set ins independently drawn from the distribution of the random vector Y, X-
+* The random forests predictor is formed by taking the average over k of the trees.
+* There are requerimentes for accurate regression forests, low correlation between residuals and low error trees.
+* Random forest decreases the average error of the trees employed by a factor.
+* Randomization needs to aim at low correlation.
+# Remarks and conclusions
+* Random forests are an effective tool in prediction.
+* They do not overfit because of the Law of Large Numbers.
+* Injecting (the rigth kind of) randomness makes them accurate classifiers and regressors.
+* The framework in terms of strength of the individual predictors and their correlations gives insight into the ability of the random forest to predict.
+* Using out-of-bag estimation makes concrete the otherwise theoretical values of strength and correlation.
+* The forests can complete with arcing type algorithms in terms of accuracy.
+* Forests give results competitive with boosting and adaaptive bagging, yet do not progressively change the trianing set.
+* Their accuracy indicates that they act to reduce bias.
+* Random forest could be viewed as a Bayesian procedure.
+* Random inputs and random forest produce good results in classification, less in regression.
+* Only two types of injected randomness were used in this study, baggind and random features.
+* Other types may give better results.
+* A recent paper shows that in distribution space for two class problems, random forests are equivalent to a kernel acting on the true margin.
+* There arguments that randomness (low correlation) enforces the symmetry of the kernel while strength enhances a desirable skweness at abrupt curved boundaries.
