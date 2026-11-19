@@ -1,2 +1,3 @@
+# Content
 * [[mathematical-model-of-computation|Mathematical model of computation]] that describes an [[abstract-machine|abstract machine]] that manipulates symbols on a strip of tape according to a table of rules.
 * Despite the model's simplicity, it is capable of implementing any [[computer-algorithm|compuiter algorithm]].
