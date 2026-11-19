@@ -6,7 +6,7 @@
 # Content
 ## Introduction
 * 24 cats were used.
-* The retina's were stimulated with light.
+* The [[retina|retina's]] were stimulated with light.
 ## Results
 * In most units it was possible to find a restricted area in the [[retina]] from which firing could be influenced by light, The receptive field.
 * Some areas produced firings when illuminated, others when illumination stopped.
@@ -19,12 +19,12 @@
 * Many units showed directional selectivity of a different type in their responses to movement.
 * A number of units responded well to some directions of movement, but not at all to the reverse directions.
 ### Binocular interaction
-* Some of these cells could be activated just as well from either eye, but often the two eyes were not equally effective, and different degrees of dominance of one eye over the other were seen.
+* Some of these cells could be activated just as well from either [[eye]], but often the two eyes were not equally effective, and different degrees of dominance of one [[eye]] over the other were seen.
 * Summation occurred between corresponding regions in the receptive fields of the two eyes.
 * Antagonism could also be shown between receptive fields of the two eyes.
 * It is very likely that within a single receptive field opposite-type regions may act in this synergistic way in response to a moving stimulus.
 ## Discussion
-* Most cells in the striate cortex had receptive fields with separate excitatory and inhibitory regions.
+* Most cells in the [[striate-cortex|striate cortex]] had receptive fields with separate excitatory and inhibitory regions.
 * The form and size of the most effective light stimulus was given by the shape of a particular region.
 * The phenomena of summation and antagonism within receptive fields seem to provide a basis for the specificity of stimuli, in shape, size and orientation.
 * Other types of receptive fields may yet be found in the cortex.
@@ -32,4 +32,4 @@
 	1. The particular arrangements within receptive fields of excitatory and inhibitory regions seem to determine the form, size and orientation of the most effective stimuli.
 	2. These arrengements may play a part in perception of movement.
 * Studies of binocularly activated units showed that the receptive fields mapped out separately in the two eyes were alike. 
-* The excitatory and inhibitory areas were located in homologous parts of the retinas, and responded in similar ways.
+* The excitatory and inhibitory areas were located in homologous parts of the [[retina|retinas]], and responded in similar ways.
