@@ -30,7 +30,7 @@
 * If we exclude the subset of training errors from the training set, one can separate the remaining part of the training set without errors.
 * To separate the remaining part of the training data one can construct an optimal separating [[hyperplane]].
 * Note that the problem of constructing a [[hyperplane]] which minimizes the number of errors on the training set is in general NP-complete. To avoid that, the authors simplify the problem.
-#3 The Method of Convolution of the Dot-Product in Feature Space
+## The Method of Convolution of the Dot-Product in Feature Space
 * The previous sections were refering to [[hyperplane|hyperplanes]] in the input space.
 * To construct one in a [[feature-space|feature space]], one first has to transform the n-dimensional input vector x into an N-dimensional feature vector through a choice of an N-dimensional vector function.
 ## General Features of Support-Vector Networks
