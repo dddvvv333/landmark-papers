@@ -1,2 +1,3 @@
+# Content
 * Sensing is the present participle of the verb sense. It may also refer to:
 	* Sensor operation, the detection of a physical presence and the conversion of that data into a signal that can be read by an observer or an instrument.
