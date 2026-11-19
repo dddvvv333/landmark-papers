@@ -5,9 +5,9 @@
 * Machine Learning, 45, 5-32, 2001.
 # Random Forests
 ## Introduction
-* Classification accuracy have increased from growing an ensemble of trees and letting them vote for the most popular class.
-* In order to grow these, random vectors are generated that govern the growth of each tree.
-* There have been different explorations, all of those procedures have in common is that for the kth three, a random vector is generated, independent of the past random vectors, but with the same distribution.
+* [[classifcation|Classification]] [[accuracy]] have increased from growing an ensemble of trees and letting them vote for the most popular [[class]].
+* In order to grow these, random [[vectors]] are generated that govern the growth of each tree.
+* There have been different explorations, all of those procedures have in common is that for the kth three, a random [[vector]] is generated, independent of the past random [[vector|vectors]], but with the same [[distribution]].
 * And a tree is grown using the training set, resulting in a classifier.
 * After a large number of trees is generated, they vote for the most popular class.
 * This procedure is called **random forests**.
@@ -19,25 +19,25 @@
 * The c/s2 ratio is the correlation divided by the square of the strength, the smaller it is, the better.
 # Using random features
 * Some random forests reported in the literature have consistenly lower generalization error than others.
-* To improve accuracy, the randomness injected has to minimize the correlation while maintaining strength.
+* To improve [[accuracy]], the randomness injected has to minimize the correlation while maintaining strength.
 * The forests studied here consist of using randomly selected inputs or combinations of inputs at each node to grow each tree.
 * The resulting forests have accuracy that is comparable with Adaboost.
 * This class of procedures has desirable characteristics:
-	1. Its accuracy is as good as Adaboost and sometimes better.
-	2. It's relatively robust to outliers and noise.
-	3. It's faster than bagging or boosting.
-	4. It gives useful internal estimates of error, strength, correlation and variable importance.
-	5. It's simple and easily parallelized.
+	1. Its [[accuracy]] is as good as Adaboost and sometimes better.
+	2. It's relatively robust to [[outliers]] and [[noise]].
+	3. It's faster than [[bagging]] or [[boosting]].
+	4. It gives useful internal estimates of error, strength, [[correlation]] and variable importance.
+	5. It's simple and easily [[parallelized]].
 * Amit and Geman grew shallow trees for handwritten character recognition using random selection from a large number of geometrically defined features to define the split at each node.
 * This is the starting point.
 ## Using out-of-bag estimates to monitor error, strength, and correlation
-* In the experiments, bagging is used in tandem with random feature selection.
+* In the experiments, bagging is used in tandem with random [[feature]] selection.
 * Each new training set is drawn, with replacement, from the original training set.
-* Then a tree is grown on the new training set using random feature selection.
+* Then a tree is grown on the new training set using random [[feature]] selection.
 * The trees grown are not pruned.
-* Two reasons for using bagging:
-	1. Use of bagging seems to enhance accuracy when random features are used.
-	2. Bagging can be used to give ongoing estimates of the generalization error of the comibned ensemble of trees, as well as estimates for the strength and correlation.
+* Two reasons for using [[bagging]]:
+	1. Use of [[bagging]] seems to enhance [[accuracy]] when random features are used.
+	2. [[bagging|Bagging]] can be used to give ongoing estimates of the generalization error of the combined ensemble of trees, as well as estimates for the strength and correlation.
 * These estimates are done out-of-bag, which is explained as follows:
 	* Assume a method for constructing a classifier from any training set.
 	* Given a specific training set T, from bootstrap training sets $T_k$, construct classifiers and let these vote to form the bagged predictor.
@@ -45,7 +45,7 @@
 	* Call this the out-of-bag classifier.
 	* Then, the out-of-bag estimate for the generalization error is the error rate of the out-of-bag classifier on the training set.
 * Tibshirani and Wolpert and Macready, proposed using out-of-bag estimates as an ingredient in estimates of generalization error.
-* The later ones worked on regression type problems and proposed a number of methods for estimating the generalization error of bagged predictors.
+* The later ones worked on [[regression]] type problems and proposed a number of methods for estimating the generalization error of bagged predictors.
 * Tibshirani used out-of-bag estimates of variance to estimate generalization error for arbitrary classifiers.
 * The study of error estimates for bagged classifiers done by Braiman, gives empirical evidence tho show that those estimate is as accurate as using a test set of the same size as the training set.
 * Therefore, using out-of-bag error estimate removes the need for a set aside test set.
@@ -81,14 +81,14 @@
 * Originally, Adaboost is a deterministic algorithm that selects the weights on the training set for input to the next classifier based on the missclassifications in the previous classifiers.
 * In the experiments, the results of both algorithms are really close (also the errors).
 # The effects of output noise
-* When a fraction of the output labels in the training set are randomly altered, the accuracy of Adaboost degenerates, while bagging and random split selection are more inmune to the noise.
-* Some noise in the outputs is often present, robustness with respect to noise is a desirable property.
+* When a fraction of the output labels in the training set are randomly altered, the accuracy of Adaboost degenerates, while [[bagging]] and random split selection are more inmune to the noise.
+* Some [[noise]] in the outputs is often present, robustness with respect to noise is a desirable property.
 * The Adaboost algorithm iteratively increases the wirghts on the instances most recently missclassified.
 * Then those instances having incorrect class labels will persist in being misclassified.
 * Adaboost will concentrate increasing weight in the noisy instances and become warped.
 * Random forest will not concentrate weight on any subset of the instances and the noise effect is smaller.
 # Random forests for regression
-* Random forests for regression are formed by growing trees depending on a random vector such that the tree predictor takes on numerical values as opposed to class labels.
+* Random forests for [[regression]] are formed by growing trees depending on a random vector such that the tree predictor takes on numerical values as opposed to class labels.
 * The outputs values are numerical and we assume that the training set ins independently drawn from the distribution of the random vector Y, X-
 * The random forests predictor is formed by taking the average over k of the trees.
 * There are requerimentes for accurate regression forests, low correlation between residuals and low error trees.
@@ -102,10 +102,10 @@
 * Using out-of-bag estimation makes concrete the otherwise theoretical values of strength and correlation.
 * The forests can complete with arcing type algorithms in terms of accuracy.
 * Forests give results competitive with boosting and adaaptive bagging, yet do not progressively change the trianing set.
-* Their accuracy indicates that they act to reduce bias.
-* Random forest could be viewed as a Bayesian procedure.
-* Random inputs and random forest produce good results in classification, less in regression.
+* Their [[accuracy]] indicates that they act to reduce bias.
+* Random forest could be viewed as a [[Bayesian]] procedure.
+* Random inputs and random forest produce good results in [[classification]], less in [[regression]].
 * Only two types of injected randomness were used in this study, baggind and random features.
 * Other types may give better results.
-* A recent paper shows that in distribution space for two class problems, random forests are equivalent to a kernel acting on the true margin.
-* There arguments that randomness (low correlation) enforces the symmetry of the kernel while strength enhances a desirable skweness at abrupt curved boundaries.
+* A recent paper shows that in distribution space for two class problems, random forests are equivalent to a [[kernel]] acting on the true margin.
+* There arguments that randomness (low correlation) enforces the symmetry of the [[kernel]] while strength enhances a desirable skweness at abrupt curved boundaries.
