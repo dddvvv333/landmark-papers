@@ -1,0 +1,2 @@
+# Content
+* Auditory perception, is the ability to perceive [[sound|sounds]] through an organ (such as an [[ear]]). by detecting [[vibrations]] as periodic changes in the pressure of a surrounding medium.
