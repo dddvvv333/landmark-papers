@@ -1,2 +1,3 @@
+# Content
 * A [[machine]] that can be programmed to automatically carry out sequences of [[arithmetic]] or [[logical-operations|logical operations]].
 * Modern [[digital-electronic|digital electronic]] computers can perform generic sets of operations known as [[programs]], which enable computers to perform a wide range of tasks.
