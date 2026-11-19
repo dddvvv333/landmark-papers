@@ -1,1 +1,1 @@
-* Minimum point of a [[Function | function]] in a specific interval.
+* Minimum point of a [[function]] in a specific interval.

@@ -1,2 +1,2 @@
 # Content
-* A neural network, also called a neuronal network, is an interconnected population of [[Neuron | neurons]] typically containing multiple [[Neural circuits | neural circuits]].
+* A neural network, also called a neuronal network, is an interconnected population of [[neuron|neurons]] typically containing multiple [[neural-circuits|neural circuits]].

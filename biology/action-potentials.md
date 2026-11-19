@@ -1,3 +1,3 @@
 # Content
-* Also known as a **nerve impulse** or "**spike**" when in a [[Neuron|neuron]] is a series of quick changes in [[Voltage|voltage]] across a [[Cell membrane|cell membrane]].
-* This occurs when the [[Membrane potential|membrane potential]] of a specific [[Cell|cell]] rapidly rises and falls.
+* Also known as a **nerve impulse** or "**spike**" when in a [[neuron]] is a series of quick changes in [[voltage]] across a [[cell-membrane|cell membrane]].
+* This occurs when the [[membrane-potential|membrane potential]] of a specific [[cell]] rapidly rises and falls.

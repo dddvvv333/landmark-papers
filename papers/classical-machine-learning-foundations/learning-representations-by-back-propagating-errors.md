@@ -4,20 +4,20 @@
  * Published: 09 October 1986.
  * Nature 323, 533-536 (1986).
 # Introduction
-* Back-propagation is a new learning procedure for networks of [[Neuron | neuron-like]] units.
-* Repeatedly adjusts the weights of the connections in the [[Neural Networks | network]] so as to minimize a measure of the difference between the actual output vector of the net and the desired output vector. (This is remanent of [[Neuroplasticity]]).
+* Back-propagation is a new learning procedure for networks of [[neuron|neuron-like]] units.
+* Repeatedly adjusts the weights of the connections in the [[neural-networks|network]] so as to minimize a measure of the difference between the actual output vector of the net and the desired output vector. (This is remanent of [[neuroplasticity|Neuroplasticity]]).
 * Internal 'hidden' units come to represent important features of the task domain and the regularities in the task are captured by the interactions of these units.
 * This ability to create new features distinguishes this procedure from earlier, simpler methods.
 # Content
-* The aim is to find a procedure that will allow a [[Neural Networks | neural network]] to develop an internal structure that is appropriate for a particular task domain.
-* For that, it's used a desired state [[Vector | vector]] of the output units for each state vector of the input units.
+* The aim is to find a procedure that will allow a [[neural-networks|neural network]] to develop an internal structure that is appropriate for a particular task domain.
+* For that, it's used a desired state [[vector]] of the output units for each state vector of the input units.
 * This is relatively easy if the inputs units are directly connected with the output units.
 * With hidden units , whose actual or desired states are not specified, this become more complex.
 * For actually achieving the goal, the learning procedure must decide which hidden units should be active.
-* Lets consider a simple [[Neural Networks | neural network]] , one with and input layer, any number of intermediate layers and an output layer.
+* Lets consider a simple [[neural-networks|neural network]] , one with and input layer, any number of intermediate layers and an output layer.
 	* Connections within a layer or from higher to lower layers are forbidden, but connections can skip intermediate layers.
 	* Lets consider and input vector, then the states of the units in each layer are determined by applying equations $(1)$ and $(2)$ to the connections coming from lower layers.
-	* Input $x_j$ to unit $j$ is a [[Mathematics/Linear function|linear function]] of the outputs $y_i$ of the units that are connected to $j$ and of the wrights $w_{ij}$ $(1)$.
+	* Input $x_j$ to unit $j$ is a [[linear-function|linear function]] of the outputs $y_i$ of the units that are connected to $j$ and of the wrights $w_{ij}$ $(1)$.
 	* We can add biases to the units by introducing an extra input to each unit which always has a value of 1. That weight is called the bias and is equivalent to the threshold of the opposite sign $(2)$.
 $$ 
 	x_j = \sum_i y_i w_{ij} \tag{1}
@@ -26,7 +26,7 @@ $$
 y_j = \frac{1}{1+\exp{-x_j}} \tag{2}
 $$
 * Those are not the only functions usable. Any input-output function which has a bounded derivative will do.
-* But the usage of [[Linear function|linear function]] for combining the inputs to a unit before applying the non linearity simplifies the learning procedure.
+* But the usage of [[linear-function|linear function]] for combining the inputs to a unit before applying the non linearity simplifies the learning procedure.
 * Now the objective is to find a set of weights that ensure that for each input vector, the output vector produced by the network is the close or the same as the desired output vector.
 * For a fixed, finite set of input-output cases, the total error in the performance of the network with a particular set of weights can be computed by comparing the actual and desired outputs for every case. The total error $E$ is defines as:
 $$
@@ -37,7 +37,7 @@ $$
 		* j is an index over output units.
 		* y is the actual state of an output unit.
 		* d is its desired state.
-* To minimize $E$ by [[Gradient descent | gradient descent]], it is necessary to compute the partial derivative of $E$ with respect to each weight in the network.
+* To minimize $E$ by [[gradient-descent|gradient descent]], it is necessary to compute the partial derivative of $E$ with respect to each weight in the network.
 * This is the sum of the partial derivatives for each of the input-output cases.
 * For each case, the partial derivative of the error with respect to each weight is computed in two passes.
 	* Forward pass is made using equations $(1)$ and $(2)$.
@@ -89,5 +89,5 @@ $$
 * Where: 
 	* $t$ is incremented by $1$ for each sweep through the whole set of input-output cases.
 	* $\alpha$ is an exponential decay factor between $0$ and $1$ that determines the relative contribution of the current gradient and earlier gradients to the weight change.
-* The most obvious drawback of the learning procedure is that the error-surface may contain [[Local minimum|local minimum]], so that [[gradient descent]] is not guaranteed to find a [[Global minimum|global minimum]].
+* The most obvious drawback of the learning procedure is that the error-surface may contain [[local-minimum|local minimum]], so that [[gradient-descent|gradient descent]] is not guaranteed to find a [[global-minimum|global minimum]].
 * However, in the experience, the network very rarely gets stuck in poor local minima that are significantly worse than the global minimum.

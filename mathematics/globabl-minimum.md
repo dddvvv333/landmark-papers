@@ -1,1 +1,0 @@
-* The lowest point of a [[Function | function]].

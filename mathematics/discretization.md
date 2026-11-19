@@ -1,1 +1,1 @@
-* Process of transferring [[Continuous | continuous]] [[Functions | functions]], [[Models | models]], [[Variables | variables]] and [[Equations | equations]] into [[Discrete | discrete]] counterparts.
+* Process of transferring [[continuous]] [[functions]], [[models]], [[variables]] and [[equations]] into [[discrete]] counterparts.

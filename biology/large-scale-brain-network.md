@@ -1,2 +1,2 @@
 # Content
-* Large-scale brain networks are collections of widespread [[Brain regions | brain regions]] showing [[functional connectivity]] by statistical analysis of the [[fMRI BOLD signal]] or other recording methods such as [[EEG]], [[PET]] and [[MEG]]
+* Large-scale brain networks are collections of widespread [[brain-regions|brain regions]] showing [[functional-connectivity|functional connectivity]] by statistical analysis of the [[fmri-bold-signal|fMRI BOLD signal]] or other recording methods such as [[eeg|EEG]], [[pet|PET]] and [[meg|MEG]]

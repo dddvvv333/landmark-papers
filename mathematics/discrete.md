@@ -1,1 +1,1 @@
-* Consisting of or permitting only [[Distinct | distinct]] values drawn from a [[Finite | finite]], [[Countable | countable]] set.
+* Consisting of or permitting only [[distinct]] values drawn from a [[finite]], [[countable]] set.

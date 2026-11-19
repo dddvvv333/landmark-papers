@@ -1,2 +1,2 @@
-* A [[Function | function]] whose [[Graph | graph]] is a [[Straigth line | straight line]] = A [[Polynomial function | polynomial function]] if [[Degree | degree]] zero.
-* A kind of [[Function | function]] between [[Vector spaces | vector spaces]].
+* A [[function]] whose [[graph]] is a [[straigth-line|straight line]] = A [[polynomial-function|polynomial function]] if [[degree]] zero.
+* A kind of [[function]] between [[vector-spaces|vector spaces]].

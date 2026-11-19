@@ -1,6 +1,6 @@
 # Content
-* [[Cell]] that is excitable.
+* [[cell|Cell]] that is excitable.
 * Fires electric signals called action potentials.
-* Multiple neurons form [[Neural Networks | neural networks]] in the [[Nervous System | nervous system]], mainly in the [[Central Nervous System | central nervous system]].
+* Multiple neurons form [[neural-networks|neural networks]] in the [[nervous-system|nervous system]], mainly in the [[central-nervous-system|central nervous system]].
 * Neurons receive and conduct impulses.
-* They communicate with other cells via [[Synapses | synapes]].
+* They communicate with other cells via [[synapses|synapes]].

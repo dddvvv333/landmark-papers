@@ -6,12 +6,12 @@
 # Content
 # Three main questions
 * For understanding the capability of higher organism for perceptual recognition, generalization, recall, and thinking:
-	1) How is information about the physical world sensed, or detected, by the biological system? ([[Sensing | sensing]])
-	2) In what form is information stored, or remembered? ([[Memory | memory]]).
-	3) How does information contained in [[Storage | storage]], or in [[Memory | memory]], influence recognition and behavior?
+	1) How is information about the physical world sensed, or detected, by the biological system? ([[sensing]])
+	2) In what form is information stored, or remembered? ([[memory]]).
+	3) How does information contained in [[storage]], or in [[memory]], influence recognition and behavior?
 * With regard to the second question:
 	1) Storage of sensory information is in the form of coded representations or images, with one-to-one mapping between the sensory stimulus and the stored pattern.
-	2) Nothing is recorded, the [[Central Nervous System | central nervous system]] simply acts as an intricate switching network, where retention takes the form of new connections, or pathways, between centers of activity.
+	2) Nothing is recorded, the [[central-nervous-system|central nervous system]] simply acts as an intricate switching network, where retention takes the form of new connections, or pathways, between centers of activity.
 		* The response represents the "idea".
 		* There is never any simple mapping of the stimulus into memory $\rightarrow$ NO RECONSTRUCTION IS POSSIBLE.
 		* The information that is retained is stored as a *preference for a particular response*.
@@ -24,9 +24,9 @@
 * Designed to illustrate some of the fundamental properties of intelligent systems in general.
 * Outside of the biology paradigm itself.
 * Still represents and analogy to biological systems.
-* Based on the similarity between a neuron and the simple on-off ([[Boolean]]) units of which [[Computer| computers]] are constructed.
-* Partially based on [[A logical calculus of the ideas immanent in nervous activty]], between others.
-* The author formulates the theory in terms of [[Probability | probability]] theory rather than symbolic logic.
+* Based on the similarity between a neuron and the simple on-off ([[boolean|Boolean]]) units of which [[computer|computers]] are constructed.
+* Partially based on [[a-logical-calculus-of-the-ideas-immanent-in-nervous-activity|A logical calculus of the ideas immanent in nervous activty]], between others.
+* The author formulates the theory in terms of [[probability]] theory rather than symbolic logic.
 * It says that the other articles were concerned with the question of how a theoreticall system work rather than how the brain works.
 	* Older models failed in important aspects:
 		* Absence of equipotentiality.
@@ -37,17 +37,17 @@
 		* Postulation of variables or functional feaetures with no kwnown neurological correlates.
 	* Those models propose that, once it has been shown how a physical system works, then you could understand everything.
 * The author takes the position that those models, even with the refinements that they need, they could never account for biological intelligence.
-* The author proposes that the [[Theory of statistical separability | theory of statistical separability]] appears to offer a solution in principle to all of these difficulties.
+* The author proposes that the [[theory-of-statistical-separability|theory of statistical separability]] appears to offer a solution in principle to all of these difficulties.
 * Assumptions of the theory:
-	1) The physical connections of the nervous system which are involved in learning and recognition are not indetical from one organims to another. At birth, the construction of the most important networks is largely random, subjhet to a minimum number of genetic constraints ([[Genetic lottery]]).
-	2) The original system of connected cells is capable of a certain amount of  [[Neuroplasticity | neruoplasticity]]; after a preiod of neural activity, the probability that a stimulus applied to one set of cells will cause a response in some other set is likely to change, due to some relatively long-lasting changes in the neurons themselves.
-	3) Through exposure to a large sample of stimuli, those which are most "similar" (in some snese which must be defined in terms of the particular physical system) will tend to form pathways to the same sets of responding cells. Those which are markedly "dissimilar" will tend to develop connections to different sets of responding cells ([[Mastery]]).
-	4) The application of postive and/or negative reinforcement (or stimuli which serve this function) may facilitate or hinder whatever formation of connections is currently in progress ([[Perfect practices makes perfect learning]]).
-	5) *Similarity*, in such a system, is represented at some level of the nervous system by a tendency of similar stimuli to activate the same sets of cells. Similarity is not necessary attribute of particular formal or geometrical classes of stimuli, but depends on the physical organization of the perceiveing system, and organization which evolves through interaction with a given enviroment. The structure of the system, as well as the ecology of the stimulus-enviroment, will affect, and will largely determine, the clases of "things" into which the perceptual world is divided ([[Reinforcement learning]]).
+	1) The physical connections of the nervous system which are involved in learning and recognition are not indetical from one organims to another. At birth, the construction of the most important networks is largely random, subjhet to a minimum number of genetic constraints ([[genetic-lottery|Genetic lottery]]).
+	2) The original system of connected cells is capable of a certain amount of  [[neuroplasticity|neruoplasticity]]; after a preiod of neural activity, the probability that a stimulus applied to one set of cells will cause a response in some other set is likely to change, due to some relatively long-lasting changes in the neurons themselves.
+	3) Through exposure to a large sample of stimuli, those which are most "similar" (in some snese which must be defined in terms of the particular physical system) will tend to form pathways to the same sets of responding cells. Those which are markedly "dissimilar" will tend to develop connections to different sets of responding cells ([[mastery|Mastery]]).
+	4) The application of postive and/or negative reinforcement (or stimuli which serve this function) may facilitate or hinder whatever formation of connections is currently in progress ([[perfect-practice-makes-perfect-learning|Perfect practices makes perfect learning]]).
+	5) *Similarity*, in such a system, is represented at some level of the nervous system by a tendency of similar stimuli to activate the same sets of cells. Similarity is not necessary attribute of particular formal or geometrical classes of stimuli, but depends on the physical organization of the perceiveing system, and organization which evolves through interaction with a given enviroment. The structure of the system, as well as the ecology of the stimulus-enviroment, will affect, and will largely determine, the clases of "things" into which the perceptual world is divided ([[reinforcement-learning|Reinforcement learning]]).
 ## The Organization of a Perceptron
 1) 
-	* Stimuli impinge on a retina of sensory units (S-points), which are assumed to respond on an all-or-nothing basis ([[Go big or go home]]), in some models, or with a pulse amplitude or frequency proportional to the stimulus intensity, in other models. 
-	* In the models considered here, an all-or-nothing response will be assumed ([[Go big or go home]]).
+	* Stimuli impinge on a retina of sensory units (S-points), which are assumed to respond on an all-or-nothing basis ([[go-big-or-go-home|Go big or go home]]), in some models, or with a pulse amplitude or frequency proportional to the stimulus intensity, in other models. 
+	* In the models considered here, an all-or-nothing response will be assumed ([[go-big-or-go-home|Go big or go home]]).
 2) 
 	* Impulses are transmitted to a set of association cells (A-units) in a "projection area" ($A_I$). This projection area may be ommited in some models, where the retina is connected directly to the association area ($A_{II}$).
 	* The set if S-points transmitting impulses to a particular A-unit will be called *origin points*.
@@ -63,7 +63,7 @@
 	* The "responses" $R_1, R_2, \ldots, R_n$ are cells (or sets of cells) which respond in much the same fashion as the A-units.
 	* Each response has a typically large number of origin points located at random in the $A_{II}$ set.
 	* The set of A-units transmitting impulses to a particular response will be called the source-set for that response.
-	* Feedback connections (Similar to the [[Endocrine system]]):
+	* Feedback connections (Similar to the [[endocrine-system|Endocrine system]]):
 		1. Excitatory feedback connections to the cells in its own soruce-set.
 		2. Inhibitory feedback connections to the complement of its own source-set.
 ### Comparison of logical characteristics of $\alpha$, $\beta$ and $\gamma$ systems
@@ -151,7 +151,7 @@ $$
 * Two possible systems have been studied for the determination of the "dominant" response:
 	1) $\mu-\text{system}$: The response whose inputs have the greatest mean value responds first.
 	2) $\sum-\text{system}$: The response whose inputs have the greatest net value gains and advantage.
-* The perceptron is expected to learn, as a result of the changes in value that occurs as a result of the activity in the cells. Two hypothetical experiments (They are the paradigm of [[Supervised learning | supervised learning]]); The perceptron is exposed to some series of stimulus patterns and:
+* The perceptron is expected to learn, as a result of the changes in value that occurs as a result of the activity in the cells. Two hypothetical experiments (They are the paradigm of [[supervised-learning|supervised learning]]); The perceptron is exposed to some series of stimulus patterns and:
 	1) Is "forced" to give the desire response; Positive reinforcment when the response happens to be correct, and negative when not; When evaluating, the perceptrons are frozen (no values changes). Then, the probability that the perceptron will show a bias towards the "correct" response in preference to any given alternative response is called $P_r$.
 	2) It's free to guess in front of a never seen stimuli. The thing here is the probability of the class of the stimuli, $P_g$, the probability of correct generalization; The probability that a bias will be found in favor of the proper response rather than any one alternative.
 * The correct values are declared $P_R$ and $P_G$.
@@ -175,13 +175,13 @@ $$
 * $N_{a_r}$ is the number of active units in a source-set, which respond to the test stimulus, $S_t \cdot P(N_{a_r} > 0)$ is the probability that at least one of the $N_e$ effective units in the source-set of the correct response will be activated by the test stimulus, $S_t$.
 ## Bivalent systems
 * Two types of reinforcement:
-	1) Positive ([[Reward | reward]]).
-	2) Negative ([[Punishment | punishmet]]).
+	1) Positive ([[reward]]).
+	2) Negative ([[punishment|punishmet]]).
 ## Improved perceptrons and spentonaeous organization
 * Preceding sections have omitted any consideration of *time* as stimulus dimension.
 * The perceptron which has no capability for temporal pattern recognition is referred to as a *momentary stimulus perceptron*.
 * The principle of statistical separability will permit the perceptron to distingish velocities, sound sequences, etc.
-* The limit of the perceptron's capabilty seems to lie in the area of [[Relative judgment | relative judgment]], and [[Abstraction of relationships | abstraction of relationships]].
+* The limit of the perceptron's capabilty seems to lie in the area of [[relative-judgement|relative judgment]], and [[abstraction-of-relationships|abstraction of relationships]].
 * Statistical separibily alone **does not provide a sufficient basis for higher order abstraction**.
 * For that, we needs a more advanced system.
 ## Conclusions and evaluation
@@ -190,11 +190,11 @@ $$
 3) No basis for generaliation exists.
 4) The probability that a learned association of some specific simulus will be correctly retained typically approeaches a better-than-chance asymptote as the number of stimuli learned by the system incrases. This asymptote can be made arbitrarly close to unity by increasing the number of association cells in the system.
 5) The probability that stimulus *which has not been en before* will be correctly recognized and associated to its appropiate class approaches the same asymptote as the probability of a correct response to a previously reinforced stimulus.
-6) The performance of the system can be inmproved by the use of a contour-sensitive projection area and by thbe use of a [[Binary numeral system| binary]] response system.
+6) The performance of the system can be inmproved by the use of a contour-sensitive projection area and by thbe use of a [[binary-numeral-system|binary]] response system.
 7) Trial-and-error learning is possible in bivalent reinforcement systems.
 8) Temporal organizations of both stimilus patterns and responses can be learned by a system which uses only an extension of the original principles of statistical separabilty.
 9) The memory of the perceptron is *distributed*, in the sense that any association may make use of a large proportion of the cells in the system and the removal of a portion of the asociation system would not have an appreciable effect on the performance of any one discrimation or association, but would begin to show ups as a general deficit in *all* learned associations.
-10) Simple cognitive sets, selective recall, and spontaneous recognition of the classes present in a given enviroment are possible. Relationships in space and time, seems to represent a limit to the perceptron's ability to form cognitive abstractions ([[Being and Time]]).
+10) Simple cognitive sets, selective recall, and spontaneous recognition of the classes present in a given enviroment are possible. Relationships in space and time, seems to represent a limit to the perceptron's ability to form cognitive abstractions ([[being-and-time|Being and Time]]).
 * The present system goes far beyond existing learning and behavior theories in three main points:
 	1) Parsimony: All the variables and laws used in the system already exists. Only one hypotethical variable called V was postulated (value of an association cell - potential).
 	2) Verifiability: Extrapolation of the learning in front of new stimuli.

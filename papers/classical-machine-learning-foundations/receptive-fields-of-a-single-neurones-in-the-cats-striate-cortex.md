@@ -8,7 +8,7 @@
 * 24 cats were used.
 * The retina's were stimulated with light.
 ## Results
-* In most units it was possible to find a restricted area in the [[Retina | retina]] from which firing could be influenced by light, The receptive field.
+* In most units it was possible to find a restricted area in the [[retina]] from which firing could be influenced by light, The receptive field.
 * Some areas produced firings when illuminated, others when illumination stopped.
 * Most receptive fields could be subdivided into excitatory and inhibitory regions.
 	* Excitatory = Illumination produced an increase in frequency of firing.
