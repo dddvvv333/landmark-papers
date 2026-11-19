@@ -1,1 +1,0 @@
-* Is a geometric object that has [[Magnitude | magnitude]] and [[Direction | direction]].
