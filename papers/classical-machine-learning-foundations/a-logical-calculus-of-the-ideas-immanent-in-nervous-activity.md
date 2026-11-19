@@ -11,7 +11,7 @@
 * Each [[neuron]] has a threshold, which when the excitation exceeds it, the [[neuron]] initiates and impulse.
 	* The threshold is determined by the [[neuron]].
 	* The impulse is propagated to all parts of the [[neuron]].
-* The velocity on the axon varies directly with its [[dyameter]] :
+* The velocity on the axon varies directly with its [[diameter]] :
 	* $< 1 ms^{-1}$ in thin [[axon|axons]] (usually short).
 	* $> 150 ms^{-1}$ in thick [[axon|axons]] (usually long).
 * [[latent-addition|Latent addition]] lasts around $<0.25 ms$.
@@ -37,7 +37,7 @@ $$
 * Solution:
 	* Use equivalent [[neural-networks|networks]] with unaltered [[neuron|neurons]]
 * This is not a factual explanation - Per contra!:
-	* Facilitation and extinction are dependent upon continuous change in threshold related to electrical and chemical variables
+	* Facilitation and extinction are dependent upon continuous change in [[threshold]] related to electrical and chemical variables
 	* Learning is an enduring change that survives everything
 	* Alteration actually underlying facilitation, extinction and learning in no way affect the conclusions
 	* Nervous systems contains many circular paths, whose activity regenerates the excitation of any participant neuron that reference to time past becomes indefinite.
@@ -132,7 +132,7 @@ Provide a more practical tool for neurophysiologists and mathematicians, the aut
 * Causality in this theory is highly irreciprocal.
 * Specifying the current state of afferent stimulation and the activity of all [[neuron|neurons]] completely determines the succeeding state.
 * However, disjunctive relations (logical ORs) prevent the complete determination of the preceding state. 
-* Regenerative activity in circular networks makes refrence to past time indefinite as to time.
+* Regenerative activity in circular networks makes reference to past time indefinite as to time.
 * Every idea and sensation is realized by network activity, but this activity never fully determines the actual afferents (the external inputs).
 * If the nervous net is altered (e.g., tinnitus, hallucinations, delusions), our reference to external facts becomes defective.
 * If our nets are undefined, our facts are undefined; determining the exact net removes the unknowability of the "thing in itself".
