@@ -1,3 +1,4 @@
+# Content
 * Not only practices actually makes good learning.
 * The practice must also be done correctly, if not, learning is incorrect.
 * This quote derive from two books:
