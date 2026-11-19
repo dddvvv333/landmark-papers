@@ -1,1 +1,2 @@
+# Content
 * Minimum point of a [[function]] in a specific interval.
