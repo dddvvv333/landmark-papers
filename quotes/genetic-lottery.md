@@ -1,3 +1,4 @@
+# Content
 * Genes are subscribed to a [[random]] chance of being inherited by and individual.
 * Some genes are superior than others (in terms of different capabilitys).
 * We may say that some individuals with multiple "superior" genes have won the genetic lottery.
